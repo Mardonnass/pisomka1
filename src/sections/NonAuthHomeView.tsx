@@ -1,6 +1,6 @@
 
 // src/sections/NonAuthHomeView.tsx
-
+"use client";
 import { Container, Typography } from "@mui/material";
 
 export default function NonAuthHomeView() {

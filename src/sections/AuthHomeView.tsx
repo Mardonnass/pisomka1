@@ -1,8 +1,9 @@
 // src/sections/AuthHomeView.tsx
-
+"use client";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import { Session } from "next-auth";
+
 
 export default function AuthHomeView({ session }: { session: Session | null }) {
   if (!session) {
